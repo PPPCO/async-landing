@@ -1,0 +1,23 @@
+{
+  "name": "async-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gh-pages": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PPPCO/async-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PPPCO/async-landing/issues"
+  },
+  "homepage": "https://github.com/PPPCO/async-landing#readme",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
