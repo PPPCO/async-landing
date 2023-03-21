@@ -1,5 +1,5 @@
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCcbUuPjp7J32YSIESrUe76A&part=snippet%2Cid&order=date&maxResults=9';
-const content = null || document.querySelector('#content');
+const content = null || document.getElementById('content');
 
 const options = {
     method: 'GET',
@@ -39,7 +39,8 @@ async function fetchData(urlAPI) {
             </div>
         `).slice(0,4).join('')}
         `;
-    } catch {
-
+        content.innerHTML = view;
+    } catch (error) {
+        console.log(error);
     }
 })();
